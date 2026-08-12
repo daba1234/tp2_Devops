@@ -1,0 +1,8 @@
+name: Testing github workflows
+on: push
+jobs:
+  init:
+    runs-on: self_hosted
+    steps:
+        -run: echo 'hello Daba'
+        -run: echo $HOSTNAME
