@@ -2,7 +2,7 @@ name: Testing github workflows
 on: push
 jobs:
   init:
-    runs-on: self_hosted
+    runs-on: ubuntu-latest
     steps:
       - run: echo 'hello Daba'
       - run: echo $HOSTNAME
