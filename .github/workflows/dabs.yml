@@ -6,4 +6,4 @@ jobs:
     steps:
       - run: echo 'hello Daba'
       - run: echo %HOSTNAME%
-      -run: docker --version
+      - run: docker --version
