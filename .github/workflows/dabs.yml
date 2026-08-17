@@ -5,4 +5,5 @@ jobs:
     runs-on: dabs-runner
     steps:
       - run: echo 'hello Daba'
-      - run: echo $HOSTNAME
+      - run: echo %HOSTNAME%
+      -run: docker --version
