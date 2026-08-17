@@ -7,3 +7,4 @@ jobs:
       - run: echo 'hello Daba'
       - run: echo %HOSTNAME%
       - run: docker --version
+      
