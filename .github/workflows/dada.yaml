@@ -3,6 +3,9 @@ on: push
 jobs:
   init:
     runs-on: dabs-runner
+    env:
+      STEP: "workflow - Initialisation"
+      
     steps:
-      - run: echo 'Mon deuxiéme runner'
+      - run: echo "${{vars.VAR}}}"
       - run: echo %HOSTNAME%
