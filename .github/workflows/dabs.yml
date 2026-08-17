@@ -7,11 +7,6 @@ jobs:
       - run: echo 'hello Daba'
       - run: echo %HOSTNAME%
       - run: docker --version
-jobs:
-  init:
-    runs-on: dabs-runner
-    steps:
-      - run: echo 'Mon deuxiéme runner'
-      - run: echo %HOSTNAME%
+
      
 

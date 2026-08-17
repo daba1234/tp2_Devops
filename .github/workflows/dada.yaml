@@ -1,0 +1,8 @@
+name: Testing github workflows
+on: push
+jobs:
+  init:
+    runs-on: dabs-runner
+    steps:
+      - run: echo 'Mon deuxiéme runner'
+      - run: echo %HOSTNAME%
